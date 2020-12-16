@@ -21,7 +21,7 @@ public class IntroImg extends JFrame {
 	public IntroImg() {
 
 		setTitle("팔라독인트로화면");
-		setSize(760, 574);
+		setSize(1130, 574);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setLayout(null);
 		setLocationRelativeTo(null); // 프레임을 중앙배치
@@ -37,7 +37,7 @@ public class IntroImg extends JFrame {
 			public void mouseClicked(MouseEvent e) {
 				new GamePanel();
 				introimg.setVisible(false);
-			
+
 			}
 		});
 	}

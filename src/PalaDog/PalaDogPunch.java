@@ -6,19 +6,22 @@ import javax.swing.ImageIcon;
 import javax.swing.JLabel;
 
 import DarkDog.Zombie;
+import Main.GamePanel;
 
-public class PalaDogPunch extends JLabel{
+public class PalaDogPunch extends JLabel {
+	public GamePanel gamepanel;
 	public PalaDogPunch punch = this;
 	public ImageIcon icPunch;
 	public int Punchx;
 	public int Punchy;
-	public boolean isPunch=true;
+	public boolean isPunch = true;
+	public int attack=10;
 	public PalaDogPunch() {
 		icPunch = new ImageIcon("images/PaladogPunch.jpg");
 		setSize(80, 80);
 		setIcon(icPunch);
 	}
-	
+
 	public void moveRight() {
 		// 스레드가 돌면서 x 값변경하면서 repaint()
 		ArrayList<PalaDogPunch> PList = new ArrayList<PalaDogPunch>();
@@ -27,12 +30,10 @@ public class PalaDogPunch extends JLabel{
 			@Override
 			public void run() {
 
-				while(isPunch) {
-					Punchx=Punchx+10;
+				while (isPunch) {
+					Punchx = Punchx + 10;
 					try {
-						if (Punchx>650) {
-							break;
-						}
+						
 						Thread.sleep(20);
 						setLocation(Punchx, Punchy);
 						for (int i = 0; i < PList.size(); i++) {
@@ -44,8 +45,12 @@ public class PalaDogPunch extends JLabel{
 						e.printStackTrace();
 					}
 				}
-				
+
 			}
 		}).start();
 	}
+	
+	
+	
+	
 }
