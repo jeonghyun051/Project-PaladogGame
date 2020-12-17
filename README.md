@@ -1,6 +1,6 @@
 # 팔라독 게임
-## ✔시연 사진
-![KakaoTalk_20201216_160845264](https://user-images.githubusercontent.com/74044292/102357090-545d4900-3ff1-11eb-9e8d-5641c1665004.png)
+## ✔시연 영상 (사진 클릭시 유튜브 이동)
+<a href = "https://www.youtube.com/watch?v=G2AKwVZouzM"> ![KakaoTalk_20201216_160845264](https://user-images.githubusercontent.com/74044292/102357090-545d4900-3ff1-11eb-9e8d-5641c1665004.png)</a>
 
 
 ## ✔기능 사항
@@ -15,4 +15,4 @@
 
 ## ✔객체 소개
 ## 1.
-<a href = "https://www.youtube.com/watch?v=G2AKwVZouzM"> ![PaladogRight](https://user-images.githubusercontent.com/74044292/102420988-b005f180-4046-11eb-8873-fff00c43d625.png)</a>
+![PaladogRight](https://user-images.githubusercontent.com/74044292/102420988-b005f180-4046-11eb-8873-fff00c43d625.png)
