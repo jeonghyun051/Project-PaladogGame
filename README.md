@@ -26,6 +26,7 @@
 
 ## 3. 쥐병사
 ![mouse_walk](https://user-images.githubusercontent.com/74044292/102422413-16d8da00-404a-11eb-89b5-af2ac0af5940.gif)
+### 기능 / 상태
 + 오른쪽으로만 이동한다.
 + 적군을 만나면 공격한다.
 + HP상태를 가지고 있다.
