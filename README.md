@@ -77,8 +77,8 @@
 
 ![Screenshot_1](https://user-images.githubusercontent.com/74044292/102422301-cfeae480-4049-11eb-91ff-5a10a9437920.jpg)
 + 마나 0.5초마다 1씩 증가
-+ MAX 40
-+ 스킬 사용 시 감소
++ MAX 40으로 제한
++ 스킬 사용 시 10감소
 </BR>
 
 (●'◡'●)감사합니다.
